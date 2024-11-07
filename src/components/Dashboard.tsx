@@ -80,13 +80,12 @@ const Dashboard: React.FC = () => {
 
     try {
       const token = localStorage.getItem("token");
-      const response = await axios.post(
+      await axios.post(
         `${apiUrl}/api/websites`,
         { Name: name, URL: url, Duration: duration },
         { headers: { Authorization: `Bearer ${token}` } }
       );
-      setWebsites((prevWebsites) => [...prevWebsites, response.data]);
-      handleCloseAddDialog();
+      window.location.reload();
     } catch (error: any) {
       if (error.response?.status === 400) {
         const errorMessage = error.response.data.error;
@@ -111,10 +110,7 @@ const Dashboard: React.FC = () => {
       await axios.delete(`${apiUrl}/api/websites/${deleteWebsiteId}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
-      setWebsites((prevWebsites) =>
-        prevWebsites.filter((website) => website.ID !== deleteWebsiteId)
-      );
-      handleCloseDeleteDialog();
+      window.location.reload();
     } catch (error) {
       console.error(error);
     }
@@ -135,7 +131,7 @@ const Dashboard: React.FC = () => {
   };
 
   const handleCloseAddDialog = () => {
-    setName("Untitled Website");
+    setName("");
     setUrl("");
     setDuration(7);
     setUrlError(null);
