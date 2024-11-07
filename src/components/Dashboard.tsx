@@ -73,8 +73,8 @@ const Dashboard: React.FC = () => {
     setUrlError(null);
     setDurationError(null);
 
-    if (duration < 1 || duration > 14) {
-      setDurationError("Duration must be between 1 and 14 days.");
+    if (duration < 2 || duration > 10) {
+      setDurationError("Duration must be between 2 and 10 days.");
       return;
     }
 
