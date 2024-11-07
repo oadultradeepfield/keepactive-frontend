@@ -4,24 +4,24 @@ KeepActive Frontend is the user interface for the KeepActive service, allowing u
 
 ## ✨ Features
 
-🔐 User authentication with JWT
-🌐 Website management dashboard
-⚡ Real-time website status updates
-📱 Fully responsive design (mobile & desktop)
+- 🔐 User authentication with JWT
+- 🌐 Website management dashboard
+- ⚡ Real-time website status updates
+- 📱 Fully responsive design (mobile & desktop)
 
 ## ⚙️ Tech Stack
 
-React
-TypeScript
-Material UI
-Vite
+![React Badge](https://img.shields.io/badge/React-18.2-61DAFB?logo=react&logoColor=white)
+![TypeScript Badge](https://img.shields.io/badge/TypeScript-5.2-3178C6?logo=typescript&logoColor=white)
+![Material UI Badge](https://img.shields.io/badge/Material_UI-5.14-007FFF?logo=mui&logoColor=white)
+![Vite Badge](https://img.shields.io/badge/Vite-5.0-646CFF?logo=vite&logoColor=white)
 
 ## 🛠️ Local Development Setup
 
 ### 📝 Prerequisites
 
-Node.js (16.x or higher)
-NPM
+- Node.js (16.x or higher)
+- NPM
 
 ### ⚡ Installation
 
@@ -34,9 +34,9 @@ cd keepactive-frontend
 
 2. Install dependencies:
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
 3. Create .env file in the root directory:
 
@@ -47,7 +47,6 @@ VITE_API_URL=https://your-backend-url.com
 4. Run the development server:
 
 ```bash
-Copy code
 npm run dev
 ```
 
@@ -59,6 +58,6 @@ Follow the platform’s deployment instructions to publish the app.
 
 ## 🎨 UI Design
 
-- Landing Page: Overview and CTA buttons (Get Started, Login)
-- Login Page: Google OAuth login
-- Dashboard: Website management with real-time status updates
+- **Landing Page**: Overview and CTA buttons (Get Started, Login)
+- **Login Page**: Choose to login or register
+- **Dashboard**: Website management with real-time status updates
