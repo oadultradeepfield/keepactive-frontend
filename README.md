@@ -11,10 +11,10 @@ KeepActive Frontend is the user interface for the KeepActive service, allowing u
 
 ## ⚙️ Tech Stack
 
-![React Badge](https://img.shields.io/badge/React-18.2-61DAFB?logo=react&logoColor=white)
-![TypeScript Badge](https://img.shields.io/badge/TypeScript-5.2-3178C6?logo=typescript&logoColor=white)
-![Material UI Badge](https://img.shields.io/badge/Material_UI-5.14-007FFF?logo=mui&logoColor=white)
-![Vite Badge](https://img.shields.io/badge/Vite-5.0-646CFF?logo=vite&logoColor=white)
+- ![React Badge](https://img.shields.io/badge/React-18.2-61DAFB?logo=react&logoColor=white)
+- ![TypeScript Badge](https://img.shields.io/badge/TypeScript-5.2-3178C6?logo=typescript&logoColor=white)
+- ![Material UI Badge](https://img.shields.io/badge/Material_UI-5.14-007FFF?logo=mui&logoColor=white)
+- ![Vite Badge](https://img.shields.io/badge/Vite-5.0-646CFF?logo=vite&logoColor=white)
 
 ## 🛠️ Local Development Setup
 
