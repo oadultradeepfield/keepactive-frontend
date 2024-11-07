@@ -60,4 +60,4 @@ Follow the platform’s deployment instructions to publish the app.
 
 - **Landing Page**: Overview and CTA buttons (Get Started, Login)
 - **Login Page**: Choose to login or register
-- **Dashboard**: Website management with real-time status updates
+- **Dashboard**: Website management with timely status updates
