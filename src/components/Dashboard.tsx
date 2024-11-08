@@ -293,11 +293,11 @@ const Dashboard: React.FC = () => {
             value={duration}
             onChange={(e) => {
               const newDuration = Number(e.target.value);
-              if (newDuration >= 1 && newDuration <= 14) {
+              if (newDuration >= 2 && newDuration <= 10) {
                 setDuration(newDuration);
                 setDurationError(null);
               } else {
-                setDurationError("Duration must be between 1 and 14 days.");
+                setDurationError("Duration must be between 2 and 10 days.");
               }
             }}
             error={durationError !== null}
