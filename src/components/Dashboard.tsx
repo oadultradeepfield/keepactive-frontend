@@ -92,7 +92,7 @@ const Dashboard: React.FC = () => {
         if (errorMessage.includes("URL")) {
           setUrlError("Invalid URL or URL format.");
         } else if (errorMessage.includes("duration")) {
-          setDurationError("Duration must be between 1 and 14 days.");
+          setDurationError("Duration must be between 2 and 10 days.");
         } else {
           setUrlError("Failed to create website.");
         }
